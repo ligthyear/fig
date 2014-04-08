@@ -6,7 +6,7 @@ import errno
 import logging
 import os
 import re
-import yaml
+from .custom_yaml import yaml
 from ..packages import six
 import sys
 
